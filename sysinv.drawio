@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T06:44:51.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" version="15.3.4" etag="JmlcMh249ki5Qz1JKIFe" type="github"><diagram id="81WDvdmAiViS9AFDW11x">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-23T06:55:29.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="gfQGHFA6XJuDy02PctUl" version="15.3.4" type="github">
+  <diagram id="81WDvdmAiViS9AFDW11x" name="第 1 页">
+    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-1" value="" style="endArrow=none;dashed=1;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="740" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-2" value="控制节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="400" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-3" value="计算节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="470" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-4" value="sysinv-api" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-5" value="sysinv-conductor" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-6" value="sysinv-agent" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-8" value="posgtgresql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="275" as="sourcePoint" />
+            <mxPoint x="535" y="274.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-15" value="rabbitmq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.425;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XPzMoJZe3bI-wGBFF3sI-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="600" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-17" value="RPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPzMoJZe3bI-wGBFF3sI-21" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;arrowWidth=0.43333333333333335;arrowSize=0.25;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="20" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
